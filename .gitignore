@@ -16,8 +16,7 @@ Parkinsons/.conda/
 Parkinsons/.scopus/
 Parkinsons/pybliometrics.cfg
 
-# Keep the cleaned notebook; ignore legacy exploratory notebooks
-Parkinsons/Exploring_*.ipynb
+# Keep notebooks tracked (including legacy exploratory notebooks)
 
 # Generated datasets
 Parkinsons/UKBiobank_Publications_By_Year.csv

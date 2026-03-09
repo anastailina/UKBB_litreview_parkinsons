@@ -55,8 +55,10 @@ The notebook writes:
 - `data/interim/dementia_related_papers.csv`
 - `data/processed/dementia_related_papers_cleaned.csv`
 - `data/processed/dementia_related_papers_clustered.csv`
+- `outputs/figures/combined_wordclouds.png`
 - `outputs/figures/tsne_visualization.png`
 - `outputs/figures/stacked_bar_chart.png`
+- `outputs/figures/full_figure.png`
 
 ## Notes
 

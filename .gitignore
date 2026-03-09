@@ -1,0 +1,45 @@
+# OS artifacts
+.DS_Store
+**/.DS_Store
+Icon?
+
+# Python cache / environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Local tool state / credentials
+Parkinsons/.conda/
+Parkinsons/.scopus/
+Parkinsons/pybliometrics.cfg
+
+# Keep the cleaned notebook; ignore legacy exploratory notebooks
+Parkinsons/Exploring_*.ipynb
+
+# Generated datasets
+Parkinsons/UKBiobank_Publications_By_Year.csv
+Parkinsons/UKBB_All_Publications_With_DOI_Abstracts.csv
+Parkinsons/UKBB_with_abstracts.csv
+Parkinsons/csv-UKBiobankA.csv
+Parkinsons/dementia_related_papers.csv
+Parkinsons/dementia_related_papers_cleaned.csv
+
+data/raw/
+data/interim/
+data/processed/
+
+# Generated figures and binaries
+Parkinsons/illustrations/
+outputs/figures/
+
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.eps
+*.pdf
+*.tif
+*.tiff

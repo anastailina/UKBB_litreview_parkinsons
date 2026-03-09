@@ -4,13 +4,48 @@ This repo is prepared around a single cleaned notebook:
 
 - `UKBB_litreview_clean.ipynb`
 
+## Create environment
+
+Use one of the options below.
+
+### Option A (recommended): `venv`
+
+```bash
+cd /Users/ai421/Desktop/GitHub/UKBB_litreview_parkinsons
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r Parkinsons/requirements.txt
+pip install jupyterlab ipykernel
+python -m ipykernel install --user --name ukbb-litreview --display-name "Python (ukbb-litreview)"
+```
+
+### Option B: `conda`
+
+```bash
+cd /Users/ai421/Desktop/GitHub/UKBB_litreview_parkinsons
+conda create -n ukbb-litreview python=3.11 -y
+conda activate ukbb-litreview
+pip install -r Parkinsons/requirements.txt
+pip install jupyterlab ipykernel
+python -m ipykernel install --user --name ukbb-litreview --display-name "Python (ukbb-litreview)"
+```
+
 ## Quick start
 
-1. Install dependencies:
+1. Activate your environment:
+   ```bash
+   source .venv/bin/activate
+   ```
+   If you used conda:
+   ```bash
+   conda activate ukbb-litreview
+   ```
+2. Install dependencies:
    ```bash
    pip install -r Parkinsons/requirements.txt
    ```
-2. Open and run:
+3. Open and run:
    - `UKBB_litreview_clean.ipynb`
 
 ## Notebook outputs
